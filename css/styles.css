@@ -1,0 +1,55 @@
+*{
+    margin : 0;
+    padding : 0;
+    list-style : none;
+}
+body {
+    display : flex;
+    flex-flow : column nowrap;
+    height : 100vh;
+}
+.button {
+    display : inline-block;
+    padding : 10px;
+    background : #B87700;
+    color : white;
+    text-decoration : none;
+}
+.button:hover {
+    cursor : pointer;
+    text-decoration : underline;
+    font-weight : bold;
+}
+header {
+    background : orange;
+}
+nav > ul > li {
+    display : inline-block;
+}
+main {
+    flex-grow:4;
+    flex-basis:auto;
+    padding : 20px 0;
+}
+main > img {
+    margin : 20px;
+}
+main > a {
+    margin : 20px 0;
+}
+main > p {
+    font-weight : bold;
+}
+.image {
+    display : block;
+    text-align : center;
+    padding : 20px;
+}
+.center {
+    text-align : center;
+}
+footer {
+    text-align : center;
+    padding : 20px 0;
+    background : orange;
+}
