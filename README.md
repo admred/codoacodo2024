@@ -2,7 +2,7 @@
 ### Curso: Fullstack Python - Codo a Codo 2024
 #### Actividad Practica, Unidad 1 y 2
 
-## [Ver Sitio](http://io.github.com/admred/recetasDeCocina)
+## [Ver Sitio](https://admred.github.io/codoacodo2024/)
 
 #### Tecnologias:
 
