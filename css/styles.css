@@ -1,7 +1,7 @@
 *{
     margin : 0;
     padding : 0;
-    list-style : none;
+    list-style-type : none;
 }
 body {
     display : flex;
@@ -30,6 +30,7 @@ main {
     flex-grow:4;
     flex-basis:auto;
     padding : 20px 0;
+    margin:0 10px;
 }
 main > img {
     margin : 20px;
@@ -39,6 +40,9 @@ main > a {
 }
 main > p {
     font-weight : bold;
+}
+main > h3 {
+    line-height:2rem;
 }
 .image {
     display : block;
@@ -52,4 +56,19 @@ footer {
     text-align : center;
     padding : 20px 0;
     background : orange;
+}
+.content {
+    padding-left:2rem;
+    margin-bottom:1rem;
+}
+ul.list li {
+    list-style-type:disc;
+    margin-left:1.4rem;
+}
+.table tr td {
+    padding:0.1rem 0.5rem;
+}
+input {
+    padding:3px;
+    margin:3px;
 }

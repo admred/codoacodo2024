@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>La cocina de Juan</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html"  class="button">Home</a></li>
+                <li><a href="about.html"  class="button">Acerca de</a></li>
+                <li><a href="contact.html"  class="button">Contacto</a></li>
+                <li><a href="sucursales.html" class="button">Sucursales</a></li>
+                <li><a href="register.html" class="button">Registro</a></li>
+            </ul>
+        </nav>
+        <h1 class="center">La cocina de Juan</h1>
+    </header>
+    <main>
+        <h3>Formulario de registro</h3>
+        <div class="content">
+            <form action="show_data.html" method="POST" autocomplete="off">
+                Nombre:
+                <input type="text" name="firstname" id="firstname" placeholder="Ingrese su nombre aqui..." autocomplete="off" required>
+                <br>
+                Apellido:
+                <input type="text" name="lastname" id="lastname" placeholder="Ingrese su apellido aqui..." autocomplete="off" required>
+                <br>
+                Ciudad:
+                <input type="text" name="city" id="city" placeholder="Ingrese su ciudad aqui..." autocomplete="off" required>
+                <br>
+                C&oacute;digo Postal:
+                <input type="number" name="cp" id="cp" placeholder="Ingrese su codigo postal aqui..." autocomplete="off" required>
+                <br>
+                Fecha de Nacimiento (dd/mm/yyyy):
+                <input type="date" name="birth" id="birth" autocomplete="off" required>
+                <br><br>
+                Genero
+                    <input type="radio" name="sex" checked>Hombre
+                    <input type="radio" name="sex">Mujer
+                    <input type="radio" name="sex">Otro
+                <br>
+                Estudios
+                    <input type="checkbox" name="study[]">Primarios
+                    <input type="checkbox" name="study[]">Secundario
+                    <input type="checkbox" name="study[]">Terciario
+                    <input type="checkbox" name="study[]">Universitario
+                    <input type="checkbox" name="study[]">Otro
+                <br><br>
+                <input type="submit" value="Enviar">
+                <br></br>
+                <p>Si usted hace click en el bot&oacute;n "Enviar", la informaci&oacute;n ser&aacute; enviada a la p&aacute;gina "show_data.html"</p>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>Derechos reservados &copy;2024</p>
+    </footer>
+</body>
+</html>

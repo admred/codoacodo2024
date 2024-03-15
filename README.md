@@ -4,13 +4,15 @@
 
 ## [Ver Sitio](https://admred.github.io/codoacodo2024/)
 
-#### Tecnologias:
+### Lenguages
 
 - HTML
 - CSS
 
 ### Paginas
-- index (principal)
-- about
-- contact
-- receta
+- [index](https://admred.github.io/codoacodo2024/)
+- [about](https://admred.github.io/codoacodo2024/pages/about.html)
+- [contact](https://admred.github.io/codoacodo2024/pages/contact.html)
+- [receta](https://admred.github.io/codoacodo2024/pages/receta.html)
+- [sucursales](https://admred.github.io/codoacodo2024/pages/sucursales.html)
+- [registro](https://admred.github.io/codoacodo2024/pages/register.html)
